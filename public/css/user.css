@@ -1,0 +1,165 @@
+.label-modif {
+    float: left !important;
+    font-size: 1.1vw !important;
+    font-family: "Sedan SC", serif;
+    color: #FFFFFF;
+    padding-bottom: 2% !important;
+    white-space: nowrap;
+}
+
+.input-modif {
+    background: #EDDCD2 !important;
+    border: 1px solid #B7B7A4 !important;
+    border-radius: 32px !important;
+}
+
+/*avatar*/
+.resize_avatar {
+    border-radius: 100px; !important;
+    width:8vw; !important;
+    height:8vw; !important;
+    object-fit:cover; !important;
+}
+
+.input-avatar {
+    background: #F4A261 !important;
+    border: 1px solid #B7B7A4 !important;
+    border-radius: 32px !important;
+    font-family: Signika, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    width: 30vw;
+    line-height: 30px;
+    color: #264653;
+}
+
+div .avatar {
+    text-align: center;
+}
+
+.btn-form {
+    background: #F4A261;
+    border: 1px solid #E76F51;
+    border-radius: 32px;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1vw;
+    text-align: center;
+    color: #264653;
+}
+
+.radio-bold {
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-size: 1.1vw;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.radio-group {
+    text-align: center;
+}
+
+.custom-radio {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.radio-bold:checked {
+    font-weight: bold;
+}
+
+.radio-before::before,
+.radio-before::after {
+    left: unset!important;
+    right: -1.5rem!important;
+}
+
+input {
+    font-family: Rubik, 'serif' !important;
+    font-size: 1vw !important;
+}
+
+.delete_button:hover, .delete_button:visited, .delete_button:link, .delete_button:active
+{
+    text-decoration: none;
+    color: #264653;
+}
+
+.btn-perso
+{
+	background-color:#f4a261;
+	border-color:#e76f51;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+
+}
+#showdiv
+{
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+	color:#264653;
+	line-height:1.5;
+}
+#showdiv:hover
+{
+	background-color:#2a9d8f;
+}
+.liste_trajet
+{
+	background-color: #264653;
+	color:white;
+	text-align:center;
+}
+
+h3
+{
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	color:white;
+	text-align:center;
+	font-size: 50px;
+	font-weight:bold;
+}
+
+.note_user {
+    float: right;
+    margin-left: 3.5vw;
+}
+
+.rotate_note {
+    transform: rotate(90deg); /* Équivalent à rotateZ(45deg) */
+    transform-origin: center;
+    margin-left: -3.5vw;
+    margin-top: 5vw;
+}
+
+.x_notations {
+    margin-top: 4vw;
+    font-family: Rubik, serif;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.ma_note {
+    font-family: Sedan SC, serif;
+    color: #FFFFFF;
+}
+
+label[for=rating-none1]:not(.enabled)
+{
+    display: none; !important;
+}
+
+
+.special_col {
+    padding-top: 1.5vw !important;
+    margin: auto !important;
+}

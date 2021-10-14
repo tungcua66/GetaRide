@@ -1,0 +1,132 @@
+@import url('http://fonts.cdnfonts.com/css/righteous');
+@import url('http://fonts.cdnfonts.com/css/prompt');
+@import url('http://fonts.cdnfonts.com/css/rubik');
+
+
+body{
+    background-color: #264653;
+}
+
+main {
+    margin-left: 17.5%;
+}
+
+.sidenav{
+    height: 100%;
+    width: 17.5%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: #F4A261;
+    border-right: 0.5vw solid #E76F51;
+}
+
+.sidenav .sidebar_icon{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0.8vw 0.8vw 0.8vw 0.8vw;
+}
+
+.sidenav a {
+    padding-left: 7%;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.1vw;
+    color: #264653;
+}
+
+.sidenav div:last-child {
+    position: absolute;
+    padding-top: 0;
+    padding-bottom: 0;
+    bottom: 2%;
+    list-style-type: none;
+}
+
+.sidenav div:first-child {
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+
+.sidenav div:nth-child(3) {
+    padding-top: 15%;
+}
+
+.moi {
+    margin-right: 2%;
+}
+
+div .sideline {
+    background-color: #264653;
+    border-radius: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 3px;
+}
+
+.sidenav a:hover, a:focus {
+    font-weight: bold;
+}
+
+.header h1 {
+    color: white;
+    font-family: 'Righteous', sans-serif;
+    font-size: 4.5vw;
+    text-align: center;
+    margin-left: 17.5%;
+}
+
+main div.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidenav .personne {
+    font-size: 1.25vw;
+    font-family: 'Righteous', sans-serif;
+    cursor: pointer;
+}
+
+.flash-message {
+    position: absolute;
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+    z-index: 99;
+}
+
+.img_sidebar:first-child {
+    object-fit:cover; !important;
+}
+
+.img_sidebar {
+    width:3vw; !important;
+    height:3vw; !important;
+}
+
+.avatar_sidebar {
+    border-radius: 100px;
+}
+
+.notification_container {
+    position: relative;
+    text-align: center;
+}
+
+.notif_sidebar {
+
+    position: absolute;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #2A9D8F;
+    font-size: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
